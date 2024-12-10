@@ -8,7 +8,7 @@ import androidx.recyclerview.widget.RecyclerView
 class RvCountryActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_rv_country) // Ensure this matches your XML file name
+        setContentView(R.layout.activity_rv_country)
 
         val recyclerView: RecyclerView = findViewById(R.id.recyclerView)
         recyclerView.layoutManager = LinearLayoutManager(this)
