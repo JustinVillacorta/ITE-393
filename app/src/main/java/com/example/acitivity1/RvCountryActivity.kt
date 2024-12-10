@@ -14,9 +14,9 @@ class RvCountryActivity : AppCompatActivity() {
         recyclerView.layoutManager = LinearLayoutManager(this)
 
         val items = listOf(
-            CountryData("Country 1"),
-            CountryData("Country 2"),
-            CountryData("Country 3")
+            CountryData("JAPANIGA"),
+            CountryData("NIGALAND"),
+            CountryData("LAND OF THE NIGA")
         )
 
         val adapter = CountryAdapter(items)
